@@ -8,8 +8,8 @@ Use the client to send word portions to the three SQS queue's.
 
 ## Run
 
-- `$ docker-compose up`
-- `$ ./script/init-queues.sh`
-
-- `$ npm run server`
-- `$ npm run client portion <id> <begin portion> <middle portion> <end portion>`
+- Start localstack: `$ docker-compose up`
+- Initialize SQS queue's: `$ ./script/init-queues.sh`
+- Copy .env file: `$ cp .env.example .env`
+- Start the server: `$ npm run server`
+- Call the client tool to provide word portions to the queue's: `$ npm run client portion <id> <begin portion> <middle portion> <end portion>`
