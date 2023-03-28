@@ -31,4 +31,4 @@ More examples:
 - npm run client portion 3 dis cop arty
 - npm run client portion 4 par al lel
 - npm run client portion 5 isthis messa gestillintact?
-- npm run client portion 6 you-can -also-make -a-scentence
+- npm run client portion 6 you-can-also- make-a-scentence-as-long- as-there-are-three-portions
