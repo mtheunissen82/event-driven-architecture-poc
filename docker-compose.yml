@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  word-portion-queue:
+    container_name: word-portion-queue
+    image: localstack/localstack:latest
+    ports:
+      - 4566:4566

@@ -1,0 +1,24 @@
+{
+  "name": "event-driven-poc",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "server": "node -r dotenv/config dist/server.js",
+    "client": "node -r dotenv/config dist/client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "dotenv": "^16.0.3",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.300.0",
+    "commander": "^10.0.0",
+    "sqs-consumer": "^7.0.3"
+  }
+}
